@@ -1,0 +1,294 @@
+{
+    "providers": {
+      "openai": {
+        "name": "OpenAI",
+        "website": "https://openai.com",
+        "api_base_url": "https://api.openai.com",
+        "models": {
+          "gpt-4o": {
+            "context_window": 131072,
+            "pricing_history": [
+              {
+                "effective_date": "2024-01-01",
+                "input_price_per_million": 2.50,
+                "output_price_per_million": 10.00,
+                "notes": "Pricing for GPT-4o."
+              }
+            ]
+          },
+          "chatgpt-4o-latest": {
+            "context_window": null,
+            "pricing_history": [
+              {
+                "effective_date": "2024-01-01",
+                "input_price_per_million": 5.00,
+                "output_price_per_million": 15.00,
+                "notes": "Pricing for ChatGPT-4o latest model."
+              }
+            ]
+          },
+          "gpt-4": {
+            "context_window": null,
+            "pricing_history": [
+              {
+                "effective_date": "2024-01-01",
+                "input_price_per_million": 30.00,
+                "output_price_per_million": 60.00,
+                "notes": "Pricing for GPT-4."
+              }
+            ]
+          },
+          "gpt-4-turbo": {
+            "context_window": null,
+            "pricing_history": [
+              {
+                "effective_date": "2024-01-01",
+                "input_price_per_million": 10.00,
+                "output_price_per_million": 30.00,
+                "notes": "Pricing for GPT-4 Turbo."
+              }
+            ]
+          },
+          "gpt-4-turbo-2024-04-09": {
+            "context_window": null,
+            "pricing_history": [
+              {
+                "effective_date": "2024-04-09",
+                "input_price_per_million": 10.00,
+                "output_price_per_million": 30.00,
+                "notes": "Pricing for GPT-4 Turbo variant released on April 9, 2024."
+              }
+            ]
+          },
+          "gpt-4-32k": {
+            "context_window": null,
+            "pricing_history": [
+              {
+                "effective_date": "2024-01-01",
+                "input_price_per_million": 60.00,
+                "output_price_per_million": 120.00,
+                "notes": "Pricing for GPT-4 with 32k context window."
+              }
+            ]
+          },
+          "gpt-4-0125-preview": {
+            "context_window": null,
+            "pricing_history": [
+              {
+                "effective_date": "2024-01-01",
+                "input_price_per_million": 10.00,
+                "output_price_per_million": 30.00,
+                "notes": "Pricing for GPT-4 preview model 0125."
+              }
+            ]
+          },
+          "gpt-4-1106-preview": {
+            "context_window": null,
+            "pricing_history": [
+              {
+                "effective_date": "2024-01-01",
+                "input_price_per_million": 10.00,
+                "output_price_per_million": 30.00,
+                "notes": "Pricing for GPT-4 preview model 1106."
+              }
+            ]
+          },
+          "gpt-4-vision-preview": {
+            "context_window": null,
+            "pricing_history": [
+              {
+                "effective_date": "2024-01-01",
+                "input_price_per_million": 10.00,
+                "output_price_per_million": 30.00,
+                "notes": "Pricing for GPT-4 Vision preview model."
+              }
+            ]
+          },
+          "gpt-3.5-turbo-0301": {
+            "context_window": null,
+            "pricing_history": [
+              {
+                "effective_date": "2024-01-01",
+                "input_price_per_million": 1.50,
+                "output_price_per_million": 2.00,
+                "notes": "Pricing for GPT-3.5 Turbo model released on March 1, 2024."
+              }
+            ]
+          },
+          "gpt-3.5-turbo-0613": {
+            "context_window": null,
+            "pricing_history": [
+              {
+                "effective_date": "2024-01-01",
+                "input_price_per_million": 1.50,
+                "output_price_per_million": 2.00,
+                "notes": "Pricing for GPT-3.5 Turbo model released on June 13, 2024."
+              }
+            ]
+          },
+          "gpt-3.5-turbo-1106": {
+            "context_window": null,
+            "pricing_history": [
+              {
+                "effective_date": "2024-01-01",
+                "input_price_per_million": 1.00,
+                "output_price_per_million": 2.00,
+                "notes": "Pricing for GPT-3.5 Turbo model released on November 6, 2024."
+              }
+            ]
+          },
+          "davinci-002": {
+            "context_window": null,
+            "pricing_history": [
+              {
+                "effective_date": "2024-01-01",
+                "input_price_per_million": 2.00,
+                "output_price_per_million": 2.00,
+                "notes": "Pricing for Davinci-002."
+              }
+            ]
+          },
+          "babbage-002": {
+            "context_window": null,
+            "pricing_history": [
+              {
+                "effective_date": "2024-01-01",
+                "input_price_per_million": 0.40,
+                "output_price_per_million": 0.40,
+                "notes": "Pricing for Babbage-002."
+              }
+            ]
+          }
+        }
+      },
+      "anthropic": {
+        "name": "Anthropic",
+        "website": "https://www.anthropic.com",
+        "models": {
+          "claude-3.5-sonnet": {
+            "context_window": 200000,
+            "pricing_history": [
+              {
+                "effective_date": "2024-01-01",
+                "input_price_per_million": 3.00,
+                "output_price_per_million": 15.00,
+                "notes": "Pricing for Claude 3.5 Sonnet."
+              }
+            ]
+          },
+          "claude-3.5-haiku": {
+            "context_window": 200000,
+            "pricing_history": [
+              {
+                "effective_date": "2024-01-01",
+                "input_price_per_million": 0.80,
+                "output_price_per_million": 4.00,
+                "notes": "Pricing for Claude 3.5 Haiku."
+              }
+            ]
+          },
+          "claude-3-opus": {
+            "context_window": 200000,
+            "pricing_history": [
+              {
+                "effective_date": "2024-01-01",
+                "input_price_per_million": 15.00,
+                "output_price_per_million": 75.00,
+                "notes": "Pricing for Claude 3 Opus."
+              }
+            ]
+          },
+          "claude-3-haiku": {
+            "context_window": 200000,
+            "pricing_history": [
+              {
+                "effective_date": "2024-01-01",
+                "input_price_per_million": 0.25,
+                "output_price_per_million": 1.25,
+                "notes": "Pricing for legacy Claude 3 Haiku."
+              }
+            ]
+          },
+          "claude-3-sonnet": {
+            "context_window": 200000,
+            "pricing_history": [
+              {
+                "effective_date": "2024-01-01",
+                "input_price_per_million": 3.00,
+                "output_price_per_million": 15.00,
+                "notes": "Pricing for legacy Claude 3 Sonnet."
+              }
+            ]
+          }
+        }
+      },
+      "google": {
+        "name": "Google",
+        "website": "https://cloud.google.com",
+        "models": {
+          "gemini-1.5-flash": {
+            "context_window": 128000,
+            "pricing_history": [
+              {
+                "effective_date": "2024-01-01",
+                "image_input_price_per_image": 0.00002,
+                "video_input_price_per_second": 0.00002,
+                "text_input_price_per_1k_characters": 0.0001875,
+                "audio_input_price_per_second": 0.00002,
+                "text_output_price_per_1k_characters": 0.000075,
+                "training_price_per_million_tokens": 8.00,
+                "notes": "Pricing for Gemini 1.5 Flash for <= 128K input tokens."
+              },
+              {
+                "effective_date": "2024-01-01",
+                "image_input_price_per_image": 0.00004,
+                "video_input_price_per_second": 0.00004,
+                "text_input_price_per_1k_characters": 0.000375,
+                "audio_input_price_per_second": 0.00004,
+                "text_output_price_per_1k_characters": 0.00015,
+                "notes": "Pricing for Gemini 1.5 Flash for > 128K input tokens."
+              }
+            ]
+          },
+          "gemini-1.5-pro": {
+            "context_window": 128000,
+            "pricing_history": [
+              {
+                "effective_date": "2024-01-01",
+                "image_input_price_per_image": 0.000032875,
+                "video_input_price_per_second": 0.000032875,
+                "text_input_price_per_1k_characters": 0.0003125,
+                "audio_input_price_per_second": 0.00003125,
+                "text_output_price_per_1k_characters": 0.00125,
+                "training_price_per_million_tokens": 80.00,
+                "notes": "Pricing for Gemini 1.5 Pro for <= 128K input tokens."
+              },
+              {
+                "effective_date": "2024-01-01",
+                "image_input_price_per_image": 0.00006575,
+                "video_input_price_per_second": 0.00006575,
+                "text_input_price_per_1k_characters": 0.000625,
+                "audio_input_price_per_second": 0.0000625,
+                "text_output_price_per_1k_characters": 0.0025,
+                "notes": "Pricing for Gemini 1.5 Pro for > 128K input tokens."
+              }
+            ]
+          },
+          "gemini-1.0-pro": {
+            "context_window": 128000,
+            "pricing_history": [
+              {
+                "effective_date": "2024-01-01",
+                "image_input_price_per_image": 0.0025,
+                "video_input_price_per_second": 0.002,
+                "text_input_price_per_1k_characters": 0.000125,
+                "text_output_price_per_1k_characters": 0.000375,
+                "notes": "Pricing for Gemini 1.0 Pro."
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+  
